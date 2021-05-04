@@ -1,0 +1,315 @@
+body {
+  font-family: "Montserrat-ligt", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 4% 7%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #495464;
+  font-size: 17px;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 0 7%;
+}
+
+.ttt{
+  font-family: 'Baloo Chettan 2';
+  position: absolute;
+  top: 24px;
+  left:80px;
+}
+
+.tt{
+  font-size: 17px;
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+
+/* Navigation Bar*/
+.qmrepromed-logo{
+  width: 210px;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+  font-size: 1.3rem;
+  position: sticky;
+}
+
+.navbar-light .navbar-brand{
+  color: #495464;
+}
+
+.navbar-brand {
+  font-family: 'Baloo Chettan 2';
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-family: 'Baloo Chettan 2';
+  text-align: right;
+}
+
+.nav-link .nav-button{
+  font-family: 'Baloo Chettan 2', sans-serif;
+  color: #495464;
+}
+
+
+/* Headings*/
+.heading-image{
+  background-image: url("../images/header.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}  
+
+.heading-text{
+  color: white;
+  font-size: 3.8rem;
+  line-height: 1.5; 
+  padding-top: 12rem;
+  padding-left:8rem;
+}
+
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+
+/* About-us Section*/
+#about-us{
+  padding: 8% 15% 2%;
+}
+
+.aboutus-title{
+  text-align: center;
+  padding-bottom: 8%;
+  color:#EF845D;
+}
+
+.aboutus-text{
+  font-family: 'Montserrat-light', sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color:#495464;
+  font-size: 1.2rem;
+}
+
+
+
+/* Services Section */
+#services{
+  background-color: #fff;
+  padding: 13% 4%;
+}
+
+.section-heading{
+  padding-bottom: 2%;
+  color:#EF845D;
+}
+
+.services-subtitle{
+  padding: 0 18%;
+}
+
+.services-box {
+  text-align: center;
+  line-height: 1.3;
+  padding: 0 1.5rem;
+}
+
+.services-title{
+  font-size: 1.4rem;
+  color:#495464;
+  padding: 12px 0 12px;
+}
+
+.icon {
+  color: #19668C;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #EF845D;
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(10deg);}
+  25% {-webkit-transform: rotate(-10deg);}
+  50% {-webkit-transform: rotate(20deg);}
+  75% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(1deg);}
+  25% {-ms-transform: rotate(-1deg);}
+  50% {-ms-transform: rotate(1.5deg);}
+  75% {-ms-transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(20deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+
+
+
+/* Testimonials Section */
+#testimonials {
+
+}
+
+.testimonial-heading{
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-align: left;
+  padding: 7% 7% 5%;
+}
+
+
+.testimonial-heading2{
+  font-size: 2.2rem;
+  line-height: 1.4;
+  text-align: center;
+  padding: 3% 7% 2%;
+}
+
+
+
+
+/* Press Section */
+#press{
+  padding: 4% 7%;
+}
+
+.prof-image{
+  height: 150px;
+  border-radius: 100%;
+  padding: 0% 1% 20%;
+}
+
+.prof{
+  text-align: left;
+  font-size: 1rem;
+  color: #495464;
+}
+
+.prof-title{
+  font-size: 1.3rem;
+  text-align: left;
+  color: #495464;
+  padding-top: 2rem;
+}
+
+.profLink{
+  padding-bottom: 7%;
+}
+
+
+/* Call to Action Section */
+#cta{
+  background-color:#fff;
+  color: #495464;
+  padding: 9% 7%;
+
+}
+
+
+.cta-heading{
+  text-align: left;
+  font-size: 3rem;
+  line-height: 2.5;
+}
+
+.contact-text{
+  font-size: 1.2rem;
+  text-align: left;
+  vertical-align:top;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+.formtext{
+padding-top: 4%;
+padding-bottom: 0%;
+}
+
+input{
+  box-sizing:border-box;
+  outline:none;
+  resize:none;
+  border:0;
+  transition:all .3s;
+  border-bottom:2px 
+  solid #bebed2}
+
+input:focus{
+  border-bottom:2px solid #78788c}
+
+textarea{
+  outline:none;
+  resize:none;
+  border:0;
+  transition:all .3s;
+  border-bottom:2px 
+  solid #bebed2}
+  
+
+
+
+/* footer Section */
+#footer{
+  background-color: #19668C;
+  color:#fff;
+  height: 200px;
+}
+
+.footer-text{
+  color:rgb(202, 202, 202);
+  font-size: 11px;
+  text-align: center;
+}
+
+a{
+  color:#bebed2;
+}
+
+
+a:hover{
+  color:#EF845D;
+}
